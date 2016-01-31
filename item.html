@@ -8,7 +8,7 @@
 
 <body>
   <header class="main-header">
-    <div class="container">
+    <div class="container clearfix">
       <div class="logo">
         <a href="index.html">
           <img src="img/barbershop-logo.png" alt="Барбершоп">
@@ -38,7 +38,7 @@
       </div>
     </div>
   </header>
-  <main class="container">
+  <main class="container clearfix">
     <h1 class="main-title">Средства для ухода</h1>
     <ul class="breadcrumbs">
       <li>
@@ -54,9 +54,8 @@
         Набор для путешествий "Baxter of California"
       </li>
     </ul>
-    <div class="left-column">
+    <div class="left-column clearfix">
       <div class="big-image">
-        <!--исправить размеры изображений после нарезки-->
         <img src="img/travel-kit-photo-1.jpg" width="460" height="498" alt="">
       </div>
       <div class="preview-image">
@@ -71,14 +70,16 @@
         </a>
       </div>
     </div>
-    <div class="left-column">
+    <div class="right-column">
       <span class="available">Есть в наличии</span>
       <span class="article">Артикул: dexter-ae</span>
       <p>Travel Kit - необходимый аксессуар во время любого путешествия. В аккуратной кожаной сумке находится все,
         что нужно для бритья и ухода за кожей во время рабочей поездки или отдыха: средство для умывания, увлажняющий крем,
         крем для бритья, крем после бритья, шампунь. Набор также может стать отличным подарком.</p>
-      <span class="price">2 900 руб.</span>
-      <a class="btn" href="#">Купить</a>
+      <div class="buy">
+        <span class="price">2 900 руб.</span>
+        <a class="btn" href="#">Купить</a>
+      </div>
       <h2 class="section-title">В набор входят:</h2>
       <ul class="set-list">
         <li>Средство для умывания (50мл)</li>
@@ -90,25 +91,25 @@
     </div>
   </main>
   <footer class="main-footer">
-  <div class="container">
-    <section class="footer-contacts">
-      Барбершоп «Бородинский»<br>
-      Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
-      <a href="#">Как нас найти?</a><br>
-      Телефон: +7 (812) 666-02-66
-    </section>
-    <section class="footer-social">
-      <p>Давайте дружить!</p>
-      <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
-      <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
-      <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
-    </section>
-    <section class="footer-copyright">
-      <p>Разработано:</p>
-      <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
-    </section>
-  </div>
-</footer>
+    <div class="container clearfix">
+      <section class="footer-contacts">
+        Барбершоп «Бородинский»<br>
+        Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
+        <a href="#">Как нас найти?</a><br>
+        Телефон: +7 (812) 666-02-66
+      </section>
+      <section class="footer-social">
+        <p>Давайте дружить!</p>
+        <a class="social-btn social-btn-vk" href="#">Вконтакте</a>
+        <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
+        <a class="social-btn social-btn-inst" href="#">Инстаграм</a>
+      </section>
+      <section class="footer-copyright">
+        <p>Разработано:</p>
+        <a class="btn" href="https://htmlacademy.ru">HTML Academy</a>
+      </section>
+    </div>
+  </footer>
 </body>
 
 </html>
